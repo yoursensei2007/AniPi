@@ -1,0 +1,98 @@
+/* 
+*  Author: Your Sensei
+ * Instagram: https://www.instagram.com/your_sensei2007?igsh=NG5vNnRmYTRzbDk4
+ *  Api's site: https://nekos.best
+ */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: azure;
+  text-decoration: none;
+}
+
+body{
+  height: 100vh;
+  /*background-image: linear-gradient(to bottom left, blue, grey);*/
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 10px;
+}
+
+#imgBoard{
+  height: 800px;
+  width: 80vw;
+  background-image: url('https://nekos.best/api/v2/waifu/b4a3ee6e-c1a2-4cd1-92b0-4c4998f846dd.png');
+  background-size: cover;
+  border-radius: 10px;
+  border: 3px solid white;
+  animation: Bshadow 4s alternate infinite;
+}
+
+@keyframes Bshadow{
+  from{
+    box-shadow: -35px 0 100px yellow, 
+  35px 0 100px cyan;
+  }
+  to{
+    box-shadow: -35px 0 100px cyan, 
+  35px 0 100px yellow;
+  }
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px 2%;
+}
+
+button,
+select{
+  font-size: 1.8rem;
+  border: 2px solid slateblue;
+  background-color: slateblue;
+  width: 30%;
+  text-align: center;
+  height: 100%;
+  margin: 5px 2px;
+  border-radius: 6px;
+}
+
+p,span{
+  font-size: 1.8rem;
+  color: aliceblue;
+  font-weight: bolder;
+}
+
+#infoBoard{
+  
+}
+@media screen and (max-width: 950px) {
+  
+  #imgBoard{
+    height: 300px;
+  }
+  
+  button,
+  select{
+    width: 30%;
+    font-size: 1rem;
+  }
+  
+  span,p{
+    font-size: 1rem;
+  }
+}
+
+
+/* 
+*  Author: Your Sensei
+ * Instagram: https://www.instagram.com/your_sensei2007?igsh=NG5vNnRmYTRzbDk4
+ *  Api's site: https://nekos.best
+ */
+  
